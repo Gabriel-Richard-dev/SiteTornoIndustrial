@@ -1,6 +1,5 @@
 main {
   margin-top: 90px;
-  margin-bottom: 9000px;
   position: relative;
   background-color: #f5f5f5;
   border-radius: 40px;
@@ -11,34 +10,57 @@ main {
     flex-wrap: wrap;
     width: 700px;
     height: 500px;
-    gap: 0px; 
+    gap: 0px;
   }
-  
-  .box-main {
-    padding-left: 100px ;
-    
-   }
 
-   .box-main .titulo {
+  .box-main {
+    padding-left: 100px;
+  }
+
+  .box-main .titulo {
     margin: 0px;
     padding: 0px;
     font-weight: 999;
     font-size: 6rem;
-    }
+    transition: 1s ease-in-out;
+  }
 
-    .descricao {
-        max-width: 700px;
-        text-align: right;
-        transform: translate(-30px,-30px);
-    }
+  .box-main .titulo:hover {
+    color: rgb(22, 165, 212);
+    transition: .5s ease-in-out;
+    padding-left: 10px;
+  }
 
-    .box-main .subtitulo {
-        margin: 0px;
-        margin-top: -16px;
-        padding: 0px;
-        font-weight: 100;
-        font-size: 3rem;
-}
+  .descricao {
+    transition: .5s ease-in-out;
+    max-width: 700px;
+    text-align: right;
+    transform: translate(-30px, -30px);
+  }
+
+  .descricao:hover {
+    transition: .5s ease-in-out;
+    transform: translate(30px, -30px);
+  }
+
+  .box-main .titulo:hover,
+  .descricao:hover {
+    padding-left: 10px;
+  }
+  .box-main .subtitulo {
+    margin: 0px;
+    margin-top: -16px;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 3rem;
+    transition: .5s ease-in-out;
+  }
+
+  .box-main .subtitulo:hover {
+    transition: .5s ease-in-out;
+    padding-left: 10px;
+  }
+
 
   .torno-home {
     position: absolute;
