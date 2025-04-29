@@ -1,0 +1,39 @@
+main {
+
+    margin-top: 90px;  
+    margin-bottom: 9000px;
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 40px;    
+
+    .box-main {
+        width: 500px;
+        height: 500px; 
+        
+
+    }  
+
+    .torno-home {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translate(8%, 10%);
+        max-width: 640px;
+        animation: SubirDescer 8s infinite ease-in-out;
+    }
+
+
+}
+
+@keyframes SubirDescer{
+    0% {
+        transform: translate(8%, 10%);
+    }
+    50% {
+        transform: translate(8%, 15%);   
+    }
+    100% {
+        transform: translate(8%, 10%);
+    }
+
+}
