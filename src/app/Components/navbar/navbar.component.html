@@ -1,12 +1,12 @@
 <nav class="navbar poppins" (onload)="onScroll()">
-    <div class="container content" id="navbar-content">
+    <div class="container content" id="navbar-content" [ngClass]="{ativo:ativo}">
         <div class="logo"></div>
         <ul>
             <li><a href="">Sobre</a></li>
             <li><a href="">Função</a></li>
             <li><a href="">Autor</a></li>
         </ul>
-
+        <div #add></div>
         <a href="www.google.com" type="button" class="btn btn-outline-primary botao-nav">Conheça o Torno</a>
     </div>
 </nav>
