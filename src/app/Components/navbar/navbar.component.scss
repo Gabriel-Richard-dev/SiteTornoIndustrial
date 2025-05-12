@@ -15,10 +15,12 @@
   }
 
   .content .logo {
-    width: 100px;
+    width: 160px;
     padding: 14px 8px;
     background-image: url("/tornogray.png");
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
   }
 
@@ -84,48 +86,3 @@
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.165);
 }
 
-@media (max-width: 700px) {
- 
-  .navbar {
-
-  .content .logo {
-    display: none;
-  }
-
-  .container {
-    max-width: 600px;
-  }
-
-  .botao-nav {
-    padding: 0px;   
-    width: 168px;
-  }
-  }
-
-}
-
-@media (max-width: 690px) {
- 
-  .botao-nav {
-    display: none;
-  }
- 
-}
-
-@media (max-width: 600px) {
-   
-  .navbar {
-    .content .logo {
-      padding: 40px 20px;
-      display: none;
-    }
-  
-    .container {
-      max-width: 450px;
-    }
-    .botao-nav {
-      display: none;
-     
-    }
-    }
-}
